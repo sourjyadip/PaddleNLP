@@ -267,6 +267,8 @@ csl_label_description = {"1": "entail", "0": "not_entail"}
 
 cluewsc_label_description = {"true": "entail", "false": "not_entail"}
 
+cola_label_description = {"0": "unacceptable", "1":"acceptable"}
+
 TASK_LABELS_DESC = {
     "tnews": tnews_label_descriptions,
     "eprstmt": eprstmt_label_descriptions,
@@ -275,6 +277,7 @@ TASK_LABELS_DESC = {
     "bustm": bustm_label_description,
     "ocnli": ocnli_label_description,
     "chid": chid_label_description,
-    "csl": csl_label_description,
+    "csl": cola_label_description,
     "cluewsc": cluewsc_label_description,
+    "cola": cola_label_description,
 }
